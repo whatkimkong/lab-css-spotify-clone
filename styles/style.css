@@ -6,3 +6,59 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.BackgroundImage {
+    background-image: url("/images/landing.jpg");
+    background-position: center;
+    height: 500px;
+    background-size: contain; 
+    color: white;
+    
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Navbar {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.TopLogo {
+    position: fixed;
+    display: flex;
+    justify-content: left;
+    height: 40px;
+}
+
+.WhatsOn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
